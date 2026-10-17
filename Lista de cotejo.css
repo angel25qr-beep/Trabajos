@@ -1,0 +1,44 @@
+body {
+    background-color: #F2F4F3;
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0E3840;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 6px;
+}
+
+th {
+    background-color: #9ECFEF;
+    color: black;
+    font-weight: normal;
+}
+
+td {
+    background-color: white;
+}
+
+tr td:first-child {
+    color: #0E3840;
+    background-color: #9ECFEF;
+    text-align: center;
+}
+
+tr th[colspan="4"] {
+    background-color: #9ECFEF;
+    color: black;
+}

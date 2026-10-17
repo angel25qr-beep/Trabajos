@@ -1,0 +1,12 @@
+*{ 
+    color :rgb(54, 114, 220);
+    font-family:cursive;
+}
+
+a :hover{
+    color: #000;
+}
+
+.normal::first-letter{
+    font-size: 48pt;
+}

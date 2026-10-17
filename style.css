@@ -1,0 +1,47 @@
+*{
+    box-sizing:border  border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman',Times,serif;
+    line-height: 1.8;
+    color:black;
+    background-color: rgb(22, 47, 189);
+}
+.encabezado{
+    background:-moz-linear-gradient(#1e3a8a),(#2563eb) ;
+    color:white;text-align: center;padding: 55px 20px;
+}
+.encabezado h1{font-size: calmp(2rem,5vw,3rem);margin-bottom: 10px;}
+
+.navegacion{
+background-color: aqua;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.navegacion a:hover,
+.navegacion a:focus-visible{
+    background-color: #2563eb;
+}
+.contenedor{
+    width: mai(10xp 92%);
+    margin:  30 auto;
+
+}
+.seccion{
+    margin-bottom: 35px;
+    scroll-margin-top:10px;
+}
+.seccion h2{
+    color: blue; margin-bottom: 10px;
+}
+
+.bienbenida{  background-color: white; padding: 30px;border-radius: 14xp; box-shadow: 0 4px 12px;
+    border-left: 6xp solid #2563eb;
+}
+.tarjeta{ color: white;padding: 25px;margin-bottom: 18px;
+    border-radius: 12px;box-shadow: 0 4px 12px;transition:tenzsformer;
+
+}
